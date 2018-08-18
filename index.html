@@ -3,6 +3,8 @@
 
 <head>
 
+  <!-- Website Version 7.0 Apple -->
+
 
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -16,436 +18,89 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="themain.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+  <!-- FontAwesome -->
+  <link href="fonts/fontawesome-free-5.2.0/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+  <link href="fonts/fontawesome-free-5.2.0/css/brands.css" rel="stylesheet" type="text/css">
+  <link href="fonts/fontawesome-free-5.2.0/css/solid.css" rel="stylesheet" type="text/css">
+
   <!-- Custom Fonts -->
-  <link href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
   <!-- HoverEffect CSS -->
   <link href="hovereffect/hovereffect.css" rel="stylesheet">
 
+  <!-- FontAwesomeAnimate CSS -->
+  <link rel="stylesheet" href="css/fontawesome-animation.min.css">
+
 </head>
 
-<!-- Main Styling -->
+  <!-- FontIcon Attribute CSS -->
 
 <style>
-
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 .fa{
-
-  width: 50px;
-  font-size: 50px;
-  padding: 10px;
-  color: black;
-
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
-
-}
-
-.fa:hover{
-
-  text-decoration: none;
-  color: black;
-  opacity: 0.65;
-
-}
-
-.jumbotron{
-
-  color:black;
-
-}
-
-.footerclass{
-
-  padding: 20px;
-  padding-top: 20px;
-  font-family: "Montserrat";
-
-}
-
-.aboutparagraph{
-
-  font-weight: bold;
-  font-size: 20px;
-  font-family: "Montserrat";
-
-}
-
-.aboutbutton{
-
-  font-size: 40px;
-  margin-top: 40px;
-  font-family: "Montserrat";
-
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
-
-
-}
-
-
-.friendlink:hover{
-
-  text-decoration: none;
-
-}
-
-.modal{
-
-  font-family: "Montserrat";
-
-
-}
-
-.friendpicture{
-
-  width: 150px;
-  margin-bottom: 30px;
-  position: relative;
-  display: inline-block;
-  opacity: 1;
-  transition: 0.3s ease;
-  cursor: pointer;
-  margin: 10px;
-  border: solid;
-  border-width: 1px;
-  border-color: white;
-}
-
-
-.friendpicture:hover{
-  transform: scale(1.1, 1.1);
-}
-
-.friendpicturesize{
-
-  width: 150px;
-
-}
-
-.floaty {
-
-  display: block;
-}
-
-.addpad{
-
-  padding-top: 20px;
-
-}
-
-.addpaddown{
-
-  padding-bottom: 100px;
-}
-
-.logolink{
-
-  text-decoration: none;
-  color: black;
-  text-align: center;
-
-}
-
-.logolink:hover{
-
-  text-decoration: none;
-  color: black;
-}
-
-.slidelink{
-  color: white;
-  text-decoration: underline;
-}
-
-.slidelink:hover{
-  color: #c6c6c6;
-  text-decoration: underline;
-}
-
-.ptkheaders{
-
-  text-align: center;
-  font-family: "Montserrat";
-  font-weight: bold;
-
-}
-
-.ptkheadersmall{
-
-  text-align: center;
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 20px;
-
-}
-
-.centerthis{
-
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  display: block;
-
-}
-
-.profilepictureshrink{
-
-  width: 300px;
-  margin-bottom: 10px;
-  margin-top: 30px;
-}
-
-</style>
-
-<!-- BlackJack Class -->
-<style type="text/css">
-@font-face {
-  font-family: "BlackJack";
-  src: url(./fonts/blackjar.ttf) format("truetype");
-}
-.BlackJack {
-  font-family: "BlackJack";
-}
-
-</style>
-
-<!-- Helvetica Neue Class -->
-<style type="text/css">
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url(./fonts/HelveticaNeue.ttf) format("truetype");
-}
-.HelveticaNeue {
-  font-family: "Helvetica Neue";
-}
-
-</style>
-
-<style type="text/css">
-@font-face {
-  font-family: "Helvetica Neue UltraLight";
-  src: url(./fonts/HelveticaNeueUltraLight.ttf) format("truetype");
-}
-.HelveticaNeueUltraLight {
-  font-family: "Helvetica Neue UltraLight";
-}
-
-</style>
-
-<style type="text/css">
-@font-face {
-  font-family: "Helvetica Neue Medium";
-  src: url(./fonts/HelveticaNeueMedium.ttf) format("truetype");
-}
-.HelveticaNeueUltraLight {
-  font-family: "Helvetica Neue Medium";
-}
-
+	width: 50px;
+	font-size: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: black;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+ }
+
+	.fa:hover {
+		text-decoration: none;
+		color: black;
+		opacity: 0.65;
+	 }
 </style>
 
 <!-- Body Begins -->
 
-<body>
+<body class="center-vertically" scroll="no">
 
-  <a class="logolink" href="http://www.playthekeys.com"><h1 class="BlackJack">Play The Keys</h1></a>
+  <div class="container">
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-
-      <div class="item active">
-        <a href="https://soundcloud.com/playthekeysmusic/sakura"><img src="./images/collab.png" alt="Collab"></a>
-        <div class="carousel-caption">
-          <h3>Sakura</h3>
-          <p>Check out this awesome collab with me and Joshua Tu below!</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <a href="#jump2"><img src="./images/youtube.png" alt="YouTube"></a>
-        <div class="carousel-caption">
-          <h3>YouTube</h3>
-          <p>Go check out my YouTube channel below!</p></a>
-        </div>
-      </div>
-
-      <div class="item">
-        <a href="https://soundcloud.com/playthekeysmusic/africa"><img src="./images/africa.png" alt="Africa"></a>
-        <div class="carousel-caption">
-          <h3>Africa by Toto (Instrumental Cover)</h3>
-          <p>I bless the rains down in Africa!!</p></a>
-        </div>
-      </div>
-
-      <div class="item">
-        <a href="https://www.instagram.com/elijahboisvert/"><img src="./images/instagram.png" alt="Instagram"></a>
-        <div class="carousel-caption">
-          <h3>Instagram</h3>
-          <p>My Instagram is now a public account!  Be sure to check it out below!</p>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-
-  <section id="download" class="content-section text-center">
-    <div class="parallax-window" data-parallax="scroll" data-image-src="img/downloads.jpg">
-      <div class="download-section">
-        <div class="container">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2 class="ptkheaders"><a name="jump1"></a>Music</h2>
-            <p class="ptkheadersmall">Making good tunes since 2012.</p>
-            <a href="https://soundcloud.com/playthekeysmusic" class="btn btn-default btn-lg">SoundCloud</a>
-            <a href="http://playthekeys.bandcamp.com/" class="btn btn-default btn-lg">Archived</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="container content-section text-center">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <img src="./images/profile.jpg" class="img-rounded profilepictureshrink">
-          <h2 class="ptkheaders"><a name="jump2"></a>About</h2>
-          <p class="aboutparagraph">Elijah Boisvert is a 16 year old musician/keyboardist, YouTuber, and overall tech nerd.  In 2011, he launched his website Play The Keys, and just a year after in 2012, his first album.  Since then, he has released many more albums, and has also joined the worship team at Manchester Christian Church.</p>
-          <p class="aboutparagraph">Check out some of my <a class="friendlink" data-toggle="modal" data-target="#friendModal">friends</a></p>
-
-          <p class="aboutparagraph"><a href="mailto:elijah@playthekeys.com">elijah@playthekeys.com</a>
-          </p>
-          <ul class="list-inline banner-social-buttons">
-            <li>
-              <a href="https://www.instagram.com/elijahboisvert"><i class="fa fa-instagram fa-fw"></i> <span class="network-name"></span></a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/elijahb"><i class="fa fa-youtube-play fa-fw"></i> <span class="network-name"></span></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Friend Modal -->
-    <div class="modal fade" id="friendModal" role="dialog">
-      <div class="modal-dialog">
-        <!-- Content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Other cool people</h4>
-          </div>
-          <div class="modal-body">
-
-            <div class="hovereffect friendpicture">
-              <a href="https://soundcloud.com/samuel_henry"><img class="friendpicturesize" src="./images/friends/sam.png"></a>
-              <div class="overlay">
-                <p>
-                  <a href="https://soundcloud.com/samuel_henry" class="friendlink"><p>Hobbes</p></a>
-                </p>
-              </div>
-            </div>
-
-            <div class="hovereffect friendpicture">
-              <a href="https://soundcloud.com/joshuatuworldwide"><img class="friendpicturesize" src="./images/friends/joshuatu.png"></a>
-              <div class="overlay">
-                <p>
-                  <a href="https://soundcloud.com/joshuatuworldwide" class="friendlink"><p>Joshua Tu</p></a>
-                </p>
-              </div>
-            </div>
-
-            <div class="hovereffect friendpicture">
-              <a href="https://soundcloud.com/emma-beauchesne"><img class="friendpicturesize" src="./images/friends/emma.png"></a>
-              <div class="overlay">
-                <p>
-                  <a href="https://soundcloud.com/emma-beauchesne" class="friendlink"><p>Emma Beauchesne</p></a>
-                </p>
-              </div>
-            </div>
-
-            <div class="hovereffect friendpicture">
-              <a href="https://soundcloud.com/philmolica"><img class="friendpicturesize" src="./images/friends/molica.png"></a>
-              <div class="overlay">
-                <p>
-                  <a href="https://soundcloud.com/philmolica" class="friendlink"><p>Phil Molica</p></a>
-                </p>
-              </div>
-            </div>
-
-            <div class="hovereffect friendpicture">
-              <a href="https://soundcloud.com/imaginary-companions"><img class="friendpicturesize" src="./images/friends/kayla.png"></a>
-              <div class="overlay">
-                <p>
-                  <a href="https://soundcloud.com/imaginary-companions" class="friendlink"><p>Kayla Phaneuf</p></a>
-                </p>
-              </div>
-            </div>
-
-            <div class="hovereffect friendpicture">
-              <a href="https://soundcloud.com/glazd"><img class="friendpicturesize" src="./images/friends/kyle.png"></a>
-              <div class="overlay">
-                <p>
-                  <a href="https://soundcloud.com/glazd" class="friendlink"><p>GLAZD</p></a>
-                </p>
-              </div>
-            </div>
-
-            <div class="hovereffect friendpicture">
-              <a href="https://soundcloud.com/nwiekstudios"><img class="friendpicturesize" src="./images/friends/nwiek.png"></a>
-              <div class="overlay">
-                <p>
-                  <a href="https://soundcloud.com/nwiekstudios" class="friendlink"><p>Nicholas Sweet</p></a>
-                </p>
-              </div>
-            </div>
-
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+      <!-- Profile Photo -->
+<div class="container-fluid" align="center">
+          <div class="row">
+      <div class="col-sm">
+              <img class="img-responsive profile" src="./images/profile.jpg">
         </div>
       </div>
     </div>
 
 
+      <!-- Social Media -->
 
+    <div align="center" class="socialcontainer unselectable">
+
+      <span style="font-size: 3.5em; color: Black;" class="socialbutton">
+        <a href="https://www.instagram.com/elijahboisvert"><i class="fab fa-instagram faa-pulse animated-hover"></i></a>
+      </span>
+
+      <span style="font-size: 3.5em; color: Black;" class="socialbutton">
+  <a href="https://www.youtube.com/elijahb"><i class="fab fa-youtube faa-shake animated-hover"></i></a>
+</span>
+
+<span style="font-size: 3.5em; color: Black;" class="socialbutton">
+  <a href="https://www.soundcloud.com/playthekeysmusic"><i class="fab fa-soundcloud faa-vertical animated-hover"></i></a>
+</span>
+
+    </div>
 
     <!-- Footer -->
 
-    <footer class="footerclass text-center centerthis">Play The Keys | Website 6.3</footer>
+    <footer class="footerclass text-center">Contact me: <a href="mailto:elijah@playthekeys.com">Elijah Boisvert</a><br>Play The Keys v7.0 "apple"</footer>
+
+
 
     <!-- jQuery -->
     <script src="css/jquery/jquery.js"></script>
