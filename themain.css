@@ -66,6 +66,14 @@ color: black;
 bottom: 10px;
 }
 
+.FAsocial{
+color: black;
+}
+
+.FAsocial:hover{
+color: black;
+}
+
 body {
 	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 1s; /* Firefox < 16 */
