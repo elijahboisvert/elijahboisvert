@@ -187,6 +187,13 @@ padding-top: 2rem;
   padding: 0px;
 }
 
+.aboutart{
+  width: 80%;
+  height: auto;
+  position: relative;
+  padding: 0px;
+}
+
 .recorddiv{
 padding-top: 5rem;
 }
@@ -243,6 +250,12 @@ position: relative;
     margin-left: 7rem;
     margin-right: 7rem;
 }
+
+.aboutdescription{
+  margin-left: 7rem;
+  margin-right: 7rem;
+  text-align: left;
+}
 }
 
 @media (min-width: 992px) {
@@ -267,6 +280,12 @@ position: relative;
   .musicdescription{
     margin-left: 20rem;
     margin-right: 20rem;
+}
+
+.aboutdescription{
+  margin-left: 15rem;
+  margin-right: 15rem;
+  text-align: left;
 }
 
 }
