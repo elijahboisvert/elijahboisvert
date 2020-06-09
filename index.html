@@ -34,6 +34,18 @@
 
 </head>
 
+<!-- Page wait until loaded -->
+<body>
+<div id="body" style="display:none;">
+<!-- everything else -->
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#body').show();
+});
+</script>
+</body>
+
 <style>
 body{
 background-color: black;

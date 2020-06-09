@@ -29,17 +29,26 @@
 	background-color: white;
 	}
 
-	h1{
-	color: black !important;
+	.musicmastheader{
+	color: white !important;
 	}
 
-	h2{
+	.musicheader{
+color:black !important;
+	}
+
+	.musicmastheader2{
+	color: white !important;
+	font-weight: bold;
+	}
+
+	.musicheader2{
 	color: black !important;
 	font-weight: bold;
 	}
 
 	.nav-link{
-	color: black !important;
+	color: white !important;
 	}
 
 	.navbar-nav{
@@ -52,16 +61,26 @@
 
 	#mainNav {
 	 min-height: 56px;
-	 background-color: white;
 	 opacity: 1;
+	}
+
+	@media (max-width: 992px) {
+		#mainNav {
+		 min-height: 56px;
+		 background-color: white;
+		 opacity: 1;
+		}
+		.nav-link{
+		color: black !important;
+		}
 	}
 
 	#mainNav.navbar-shrink {
 	 background-color: white;
 	}
 
-	#mainNav.navbar-shrink .nav-link.active {
-	 color: white;
+	#mainNav.navbar-shrink .nav-link {
+	 color: black !important;
 	 outline: none;
 	}
 
@@ -77,6 +96,19 @@
 
 	</style>
 </head>
+
+<!-- Page wait until loaded -->
+<body>
+<div id="body" style="display:none;">
+<!-- everything else -->
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#body').show();
+});
+</script>
+</body>
+
 <body id="page-top">
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
@@ -104,19 +136,38 @@
 			</div>
 		</div>
 	</nav>
+
 	<section id="home">
+  <header class="masthead musicmasthead fade-in">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto">
+
+					<h1 class="mx-auto my-0 text-center musicmastheader">Instrumentals...</h1>
+					<h2 class="mx-auto mt-2 mb-5 musicmastheader2">and new chill beats on SoundCloud!</h2>
+					<p class="mb-0 text-white-50 musicdescription">Do you like instrumentals?  Chill beats?  LoFi, maybe?  Check out these chill beats and remixes on SoundCloud below, available for free listening and downloading.</p>
+
+					<div class="container musicbuttons contact-sectionlight">
+						<div class="socialdark d-flex justify-content-center">
+							<a class="mx-2" href="https://soundcloud.com/elijahboisvert"><i class="fab fa-soundcloud"></i></a>
+						</div>
+
+			</div>
+    </div>
+  </header>
+</section>
+
+
+	<section>
 		<div class="col-xl-12 col-lg-12">
 			<div class="featured-text text-center text-lg">
 				<div class="recorddiv unselectable fade-in-extralong"><img alt="" class="img-fluid recordart" src="img/otmrecord.png"></div>
 			</div>
 		</div>
-	</section>
-	<section>
 		<header class="miniheader">
 			<div class="container d-flex h-100 align-items-center">
 				<div class="mx-auto text-center fade-in">
-					<h1 class="mx-auto my-0">Over the Moon</h1>
-					<h2 class="mx-auto mt-2 mb-5">original song by Elijah Boisvert</h2>
+					<h1 class="mx-auto my-0 musicheader">Over the Moon</h1>
+					<h2 class="mx-auto mt-2 mb-5 musicheader2">original song by Elijah Boisvert</h2>
 				</div>
 			</div>
 		</header>

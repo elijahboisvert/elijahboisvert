@@ -118,6 +118,20 @@
 	background-size: cover;
 }
 
+.musicmasthead {
+	position: relative;
+	width: 100%;
+	height: auto;
+	min-height: 35rem;
+	padding: 15rem 0;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/scbgjpg");
+	background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/scbg.jpg");
+	background-position: 50% 20%;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
 .miniheader {
 	position: relative;
 	width: 100%;
@@ -131,7 +145,7 @@
 }
 
 .miniheader h1 {
-	font-family: 'Helvetica Neue';
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 2rem;
 	line-height: 2.5rem;
@@ -212,7 +226,7 @@
 }
 
 .masthead h1 {
-	font-family: 'Helvetica Neue';
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 2rem;
 	line-height: 2.5rem;
@@ -521,7 +535,7 @@
 	box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
 	padding: 1.25rem 2rem;
 	height: auto;
-	font-family: 'Helvetica Neue';
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 80%;
 	text-transform: uppercase;
 	letter-spacing: 0.15rem;
@@ -535,7 +549,7 @@
 
 .contact-section .card h4 {
 	font-size: 0.8rem;
-	font-family: 'Helvetica Neue';
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.15rem;
 }
@@ -590,8 +604,31 @@
 	color: #000;
 }
 
+.contact-sectionlight .socialdark {
+	margin-top: 1.5rem;
+}
+
+.contact-sectionlight .socialdark a {
+	text-align: center;
+	height: 3rem;
+	width: 3rem;
+	background: rgba(255, 255, 255, 0.15);
+	border-radius: 100%;
+	line-height: 3rem;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-sectionlight .socialdark a:hover {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-sectionlight .socialdark a:active {
+	color: #fff;
+}
+
+
 body {
-	font-family: 'Helvetica Neue';
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	letter-spacing: 0.0625em;
 }
 
